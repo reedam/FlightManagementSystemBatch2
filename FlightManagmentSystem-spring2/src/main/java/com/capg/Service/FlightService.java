@@ -22,7 +22,7 @@ import com.capg.entity.ScheduledFlight;
 
 
 @Service
-public class FlightService 
+public class FlightService implements FlightServiceInterface
 {
 	@Autowired
 	private FlightDao flightDao;

@@ -18,7 +18,7 @@ import com.capg.entity.ScheduledFlight;
 
 @Repository
 @Transactional
-public class FlightDao 
+public class FlightDao implements FlightDaoInterface
 {
 	
 	@PersistenceContext
